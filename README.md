@@ -18,6 +18,15 @@ This repository attempts to build a Swift package ontop of a Rust library compil
 2. `swift build`
 3. It should build but it does not :(
 
+Instead of building the following happens
+
+```
+error: no such module 'CTest'
+import CTest
+       ^
+```
+
+
 ## Questions
 
 ### Does the headers exists in the framework?
