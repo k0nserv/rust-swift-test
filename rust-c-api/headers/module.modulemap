@@ -1,0 +1,4 @@
+module CTest {
+    header "test.h"
+    export *
+}
